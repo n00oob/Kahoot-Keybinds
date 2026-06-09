@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Kahoot Keybinder",
+  "version": "1.0",
+  "description": "Binds T, Y, G, H to Kahoot answer buttons.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.kahoot.it/*"],
+      "js": ["content.js"],
+      "world": "MAIN"
+    }
+  ]
+}
